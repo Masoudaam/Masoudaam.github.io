@@ -1,0 +1,365 @@
+a{
+    display: inline-block;
+
+}
+
+li a{
+
+border: 1em solid #518639;
+background-color: #518639;
+padding:1rem;
+margin: 1em;
+color: whitesmoke;
+width: 7em;
+text-decoration: none;
+text-decoration-style: none;
+text-align: center;
+text-transform: capitalize;
+border-radius: 100rem;
+font-size: 1.3rem;
+    }
+
+li a:hover{
+
+    border: 1em solid #245537;
+    background-color: #245537;
+  font-weight: bold;
+  
+    
+    }
+    
+ul,ol {
+    margin: 0 auto;
+ /* border: 2em solid;*/
+    width:fit-content;
+}
+.imageheader{
+margin: 0 auto;
+display: flex;
+}
+li{
+    list-style: none;
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.floatleft{
+    float: left;
+}
+
+.floatright{
+    float: right;
+}
+ul :after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.imagebody{
+  /*  border: 2rem solid reds;*/
+  display: block;
+}
+.thefirstmessage{
+
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-size: 3em;
+    text-align: center;
+    text-justify: inter-word;
+    text-transform: capitalize;
+    margin: 2rem auto;
+}
+
+.thequote{
+font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-size: 3em;
+    text-align: center;
+    text-justify: inter-word;
+    text-transform: capitalize;
+    margin: 2rem auto;
+
+}
+
+.thefirstmessage:hover/*:not([p a])*/{
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+
+    font-size: 3em;
+    text-align: center;
+    text-justify: inter-word;
+    background-color: #245537;
+    color: white;
+
+
+}
+
+.thequote:hover{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3em;
+    text-align: center;
+    text-justify: inter-word;
+    background-color: #245537;
+    color: white;
+
+
+}
+body{
+  /*  background-image: url(../images/800\ 400\ _body_image_1.jpg);*/
+}
+
+:placeholder-shown{
+    text-align: center;
+}
+
+fieldset{
+border:2px solid #245537;
+border-radius: 1rem;
+}
+
+
+
+label,input{
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+legend{
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.capitalize{
+    text-transform: capitalize;
+}
+input{
+    text-align: center;
+    padding: o.5rem 1rem 0.5rem 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    display: inline-block;
+
+}
+
+select:hover,input:hover{
+    background-color: #b6c1b2;
+    color: white;
+}
+/*input:hover{
+    background-color: #b6c1b2;
+    color: white;
+}*/
+
+select,option,input:not([type="radio"],[type="checkbox"]){
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    text-align: center;
+    width: 15rem;
+    border-radius: 1rem;
+    border:2px solid #245537;
+    padding: 0.5rem;
+}
+
+button{
+margin:1rem 1rem 0 1rem;
+background-color: #245537;
+color: white;
+text-align: center;
+font-weight: bold;
+padding: 1rem;
+font-family: Arial, Helvetica, sans-serif;
+text-transform: uppercase;
+border-radius: 1rem;
+}
+
+button:hover{
+    margin:1rem 1rem 0 1rem;
+    background-color:white;
+    color: #245537;
+    text-align: center;
+    font-weight: bold;
+    padding: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    }
+
+    .radioclass{
+        width: 10rem;
+        flex-basis: 25%;
+        margin: 1rem;
+
+            }
+
+    .fifty{
+        flex-basis: 50%;
+            }
+
+    .rowrow{
+        display: flex;
+        flex-flow: row nowrap;
+        margin: 0 0;
+        width: 50%;
+    }
+    section{
+display: flex;
+flex-flow: row nowrap;
+justify-content: space-around;
+    }
+
+    section label{
+flex-basis: 1%;
+margin: 0;
+padding: 0;
+    }
+    label input{
+        flex-basis: 5%;
+        margin: 0;
+        padding: 0;
+            }
+textarea{
+color: black;
+margin: 0;
+border: 1px dashed #245537;
+border-radius: 1rem;
+display: block;
+flex-basis: 50%;
+ }
+ .block{
+    display: block;
+    margin: auto auto;
+    margin-left: 10px;
+ }
+ p:not([class="thefirstmessage"]){
+    text-transform: capitalize;
+    width: fit-content;
+    flex-basis: 100%;
+    font-weight: bold;
+   /* border: 2px solid red;*/
+ }
+
+ .sex{
+    display: flex;
+    flex-flow: row nonowrap;
+ }
+ .themiddle{
+    display: flex;
+    flex-flow: row nonowrap;
+ }
+
+ .sectionborder{
+    border: 1px dashed #245537;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    margin: 0.5rem;
+ }
+
+ .sexflex{
+    flex-basis: 10%;
+ }
+ .purposeflex{
+    flex-basis: 50%;
+
+ }
+
+ .automargin{
+    margin:auto auto;
+    padding: 0;
+ }
+
+ .commentflex{
+    flex-basis: 50%;    
+    margin: 1rem;
+
+
+ }
+
+ .checkboxflex{
+    flex-basis: 40%;
+ }
+
+ .displaycol{
+    display: flex;
+    flex-flow: column nowrap;
+ }
+.onlineshop{
+display: flex;
+flex-flow: row nowrap;
+margin: 2rem auto;
+
+}
+
+.center{
+    margin: auto;
+}
+
+img:after{
+    display: table;
+    content: "";
+    clear:both;
+}
+
+p:after{
+    display: table;
+    content: none;
+    clear: both;
+}
+i:after{
+    display: table;
+    content: "";
+    clear: both;
+}
+
+ p a{
+   height: 350px;
+   width: 100%;
+    text-decoration: none;
+    color: orange;
+    padding: auto;
+}
+p a:hover{
+    text-decoration: none;
+    color: white;
+}
+
+
+ /* a{
+  display: block;
+    
+}
+
+li a {
+    text-decoration: none;
+    text-align: center;
+    margin: 2rem;
+    padding: 2rem;
+    border: 2px solid red;
+    border-radius: 2rem;
+    background-color: #245537;
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 7rem;
+    display: flex;
+    flex-flow: row nowrap;
+
+}
+
+li a:hover{
+    color: #245537;
+    background-color: white;
+
+}
+
+ol, ul{
+    margin: 0 auto;
+    border: 2px solid red;
+    width: fit-content;
+}
+
+*/
+
+.address{
+    text-transform: capitalize;
+    display: block;
+}
