@@ -1,0 +1,309 @@
+
+body{
+   
+    font-size: 2.5rem;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    text-transform: capitalize;
+
+   
+
+}
+
+li,ul{
+    list-style: none;
+}
+
+h1{
+    border-bottom: 1px solid #C9302C;
+    width: 35rem;
+    height: 6rem;
+    color: white;
+    padding: 0;
+    margin-right: 20rem;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+   
+}
+.headerbackground{
+    background-image: linear-gradient(to right, rgb(39, 39, 43), rgb(52, 61, 93));
+    width: 100%;
+    position: relative;
+    
+
+}
+
+.header{
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 0 auto;
+    
+}
+
+.textinheader{
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.imageheader{
+    flex-basis: 30%;
+    margin-left: 20rem;
+    border-radius: 2rem;
+    float: right;
+}
+
+.makecol{
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.makecol2{
+    display: flex;
+    flex-flow: column nowrap;
+    margin: o auto;
+}
+
+.makerow{
+    display: flex;
+    flex-flow: row nowrap;
+    margin: o auto;
+}
+
+.me{
+    flex-basis: 33.3333333333333%;
+    text-align: center;
+    text-transform: capitalize;
+
+}
+
+.me:hover {
+    background-image:linear-gradient(to right, rgb(39, 39, 43), rgb(52, 61, 93));
+    color: white;
+    
+}
+
+label,input{
+    text-transform: capitalize;
+
+}
+
+input:not([type="checkbox"]) , select, textarea {
+    width: 30rem;
+    height: 4rem;
+       text-transform: capitalize;
+       font-size: 2rem;
+       border-radius: 1rem;
+       text-align: center;
+       border: 2px solid #27282D;
+       margin: auto auto;
+       margin: 1rem auto;
+
+
+}
+section{
+
+}
+.form1{
+    display: flex;
+    flex-flow: column nowrap;
+    flex-basis: 40%;
+    min-height: 65rem;
+}
+
+.adres{
+    flex-basis: 25%;
+    height: 66rem;
+
+}
+
+fieldset{
+    display: flex;
+    flex-flow: row nowrap;
+    border: 2px solid #27282D;
+    border-radius: 1rem;
+    font-size: 2.5rem;
+    align-items:start;
+    justify-content: center;
+    margin: 0.5rem;
+padding: 1rem;
+}
+
+
+
+.address{
+    border-radius: 1rem;
+    font-size: 2.5rem;
+    align-items: flex-start;
+    justify-content: center;
+    display: flex;
+    flex-flow: column nowrap;
+
+
+}
+
+label:not([for="comment"]){
+    display: flex;
+    flex-flow: column nowrap;
+    margin: 1rem;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+/*.centeralign{
+    margin: 0 auto;
+}*/
+
+legend{
+    font-weight: bold;
+}
+
+.fbasis{
+display: flex;
+flex-flow: row nowrap;
+margin: 0 auto;
+}
+
+.a{
+margin: 0 auto;
+display: flex;
+flex-flow: row nowrap;
+}
+
+
+.b{
+flex: 1;
+border: 2px solid red;
+}
+.c{
+  border: 2px solid red; 
+
+}
+/*.disptable{
+    display: table;
+}
+.tablecell{
+    display: table-cell;
+}*/
+
+.aa{
+    display: flex;
+    flex-flow: row nowrap;
+    min-height: 300px;
+}
+
+.bb{
+    flex:1;
+}
+
+button{
+background-color: #27282D;
+color: white;
+width: 22rem;
+height: 4rem;   
+border-radius: 1rem;
+margin-left: 2rem;
+font-size: 2.5rem;
+font-family: 'Oleo Script Swash Caps', cursive;
+text-transform: uppercase;
+margin-top: 1rem;
+margin-left: 35rem;
+
+}
+
+button:hover{
+    color: #27282D;
+    background-color: white; 
+    font-weight: bold;
+}
+textarea{
+    height: 25rem;
+    padding: 1rem;
+   
+}
+.txt{
+    text-align: center;
+    justify-content: center;
+}
+
+.subscription{
+    width: fit-content;
+    display: flex;
+    flex-flow: row nowrap;
+    margin-top: -2rem;
+}
+
+.aaa{
+width:2rem;
+height: 2rem;
+justify-content: center;
+align-items: center;
+align-content: center;
+text-align: center;
+margin: auto auto;
+
+}
+
+.ah{
+    text-decoration: none;
+    color: white;
+    margin: 1rem;
+    height: fit-content;
+
+}
+
+li a{
+    height: fit-content;
+}
+
+.ul{
+        display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0;
+    position:absolute;
+    right: 1rem;
+
+    width: fit-content;
+    padding: 0;
+
+
+}
+
+.abspos{
+    margin-top: 10rem;
+}
+.top50{
+    margin-top: 100rem;
+
+}
+
+.abss{
+    position: fixed;
+}
+
+.notcenter{
+    text-align: start;
+    justify-content: left;
+}
+
+/*.posleft{
+    position: absolute;
+    left:400rem;
+    border:  2px solid red;
+    display: block;
+    width: 100%;
+}
+*/
+.posrel{
+    position: relative;
+}
+
+i{
+    width: fit-content; 
+   justify-content: flex-start;
+}
+
+a{
+}
